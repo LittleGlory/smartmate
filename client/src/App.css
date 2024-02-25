@@ -1,0 +1,22 @@
+#root {
+    max-width: 1280px;
+    margin-left: auto 0;
+    padding: 10rem;
+  }
+  .logo {
+    height: 20em;
+    padding: 0.2em;
+    will-change: filter;
+    transition: filter 300ms;
+    position: absolute;
+    left: 100px;
+    top: 250px;
+  }
+  
+  .logo:hover {
+    filter: drop-shadow(0 0 1em #6c3f87);}
+  
+  .left{
+    display: flex;
+    justify-content: space-between;
+  }
